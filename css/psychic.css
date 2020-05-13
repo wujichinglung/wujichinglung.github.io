@@ -152,7 +152,7 @@ header {
 .atm li {
     margin-right: 20px;
 }
-.logo-line, .logo-telegram  {
+.logo-line, .logo-telegram, .logo-instagram  {
     width: 100px;
     height: 100px;
 }
@@ -176,7 +176,7 @@ header {
 }
 
 /* qrcode */
-.qrcode-line, .qrcode-telegram {
+.qrcode-line, .qrcode-telegram, .qrcode-instagram {
     display: inline-block;
     width: 100px;
     height: 100px;
