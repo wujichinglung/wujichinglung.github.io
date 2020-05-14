@@ -272,7 +272,7 @@ header {
       width: 60%;
     }
     .mainmenu-container {
-        background-size: cover;
+        background-size: content;
     }
     .mainbtn {
     margin-top: 0;
