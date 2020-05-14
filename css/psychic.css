@@ -1,4 +1,4 @@
-/* 20200508 Ason */
+/* 20200513 Ason */
 /* common */
 html {
     /* scroll-behavior: smooth; */
@@ -129,7 +129,7 @@ header {
     margin-top: 80px;
 }
 .about-pic-1 {
-    width: 12%;
+    width: 20%;
 }
 .fill-data-link {
     display: inline-block;
@@ -254,7 +254,7 @@ header {
         margin-right: 10px;
     }
     .about-pic-1 {
-        width: 30%;
+        width: 40%;
     }
 }
 @media only screen and (max-width: 767px) {
@@ -269,7 +269,7 @@ header {
       right: 10px;
     }
     .about-pic-1 {
-      width: 50%;
+      width: 60%;
     }
     .mainmenu-container {
         background-size: cover;
