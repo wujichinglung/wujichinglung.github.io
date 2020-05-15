@@ -54,12 +54,14 @@ header {
     padding: 0;
 }
 .mainbtn {
+    display: inline-block;
     text-align: right;
     margin-top: -80px;
     margin-bottom: 80px;
-    padding-right: 20px;
+    padding-right: 10px;
     position: sticky;
     top: 10px;
+    left: 100%;
     z-index: 5;
 }
 .btn-container {
@@ -124,6 +126,7 @@ header {
 }
 .fill-data-link li {
     float: left;
+    margin-top: 5px;
     margin-right: 10px;
 }
 .fill-data-link li i {
@@ -272,7 +275,6 @@ header {
     margin-top: 0;
     margin-bottom: 0;
     padding-right: 10px;
-    top: 10px;
     }
     .mainmenu {
     font-size: 1.3rem;
