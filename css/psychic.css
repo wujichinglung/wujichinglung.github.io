@@ -1,7 +1,7 @@
-/* 20200513 Ason */
+/* 20200515 Ason */
 /* common */
 html {
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
   }
 body {
     background: url(../image/bg_2.jpg);
