@@ -203,7 +203,7 @@ header {
     color: white;
     cursor: pointer;
     padding: 6px 14px 6px;
-    border-radius: 30px;
+    border-radius: 50%;
     font-size: 32px;
     opacity: 0.5;
   }
