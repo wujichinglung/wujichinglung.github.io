@@ -147,8 +147,8 @@ header {
     margin-right: 20px;
 }
 .logo-line, .logo-telegram, .logo-instagram  {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 .email {
     margin-top: 30px;
@@ -174,10 +174,6 @@ header {
     display: inline-block;
     width: 100px;
     height: 100px;
-    background-color: #fff;
-    border: 1px solid #000;
-}
-.qrcode-wujichinglung {
     background-color: transparent;
     border: none;
 }
