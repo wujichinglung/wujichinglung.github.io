@@ -1,4 +1,4 @@
-/* 20200515 Ason */
+/* 20200521 Ason */
 /* common */
 html {
     scroll-behavior: smooth;
@@ -56,12 +56,12 @@ header {
 .mainbtn {
     display: inline-block;
     text-align: right;
-    margin-top: -80px;
-    margin-bottom: 80px;
-    padding-right: 10px;
-    position: sticky;
+    /* margin-top: -80px;
+    margin-bottom: 80px; */
+    margin-right: 10px;
+    position: fixed;
     top: 10px;
-    left: 100%;
+    right: 0;
     z-index: 5;
 }
 .btn-container {
@@ -274,7 +274,6 @@ header {
     .mainbtn {
     margin-top: 0;
     margin-bottom: 0;
-    padding-right: 10px;
     }
     .mainmenu {
     font-size: 1.3rem;
