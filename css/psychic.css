@@ -293,9 +293,9 @@ header {
 
 /* rwd */
 @media only screen and (max-width: 991px) {
-   html {
+   /* html {
        scroll-behavior: auto;
-    }
+    } */
    h3 {
        width: 30%;
     } 
