@@ -179,6 +179,10 @@ header {
 .query-form {
     display: inline-block;
     background-color: rgba(255,255,255,1);
+    background-image: url(../images/bg_taiji.svg);
+    background-size: 160%;
+    background-repeat: no-repeat;
+    background-position: center;
     text-align: left;
     list-style: none;
     padding: 40px 60px;
