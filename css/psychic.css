@@ -84,6 +84,23 @@ header {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
   }
+
+  /* 報名資料關閉按鈕  開始*/
+  .btn-close:link {
+      display: inline-block;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      position: absolute;
+      top: -50px;
+      right: -50px;
+      box-sizing: border-box;
+}
+  .btn-close:hover {
+      color: gray;
+      text-decoration: none;
+  }
+/* 報名資料關閉按鈕  結束*/
+
 .mainmenu-container {
     display: none;
     justify-content: center;
@@ -153,9 +170,19 @@ header {
 .email {
     margin-top: 30px;
 }
+.flex-container {
+    display: flex;
+    /* height: 300px; */
+    justify-content: center;
+    align-items: center;
+  }
 .query-form {
-    background-color: rgba(255,255,255,0.5);
-    padding: 20px 34px;
+    display: inline-block;
+    background-color: rgba(255,255,255,1);
+    text-align: left;
+    list-style: none;
+    padding: 40px 60px;
+    position: relative;
 }
 .copyright {
     background-color: #222;
@@ -235,6 +262,18 @@ header {
     color: #212529;
     vertical-align: text-bottom;
   }
+  .modal-content {
+    display: none;
+    justify-content: center;
+    align-items: center;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.9);
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+  }
 
 /* rwd */
 @media only screen and (max-width: 991px) {
@@ -281,5 +320,13 @@ header {
     .note {
         padding-left: 40px;
         padding-right: 30px;
+    }
+    .query-form {
+        margin: 0 15px;
+        padding: 15px 30px;
+    }
+    .btn-close:link {
+        top: -55px;
+        right: -10px;
     }
 }
