@@ -1,4 +1,4 @@
-/* 20200521 Ason */
+/* 20200526 Ason */
 /* common */
 html {
     scroll-behavior: smooth;
@@ -135,6 +135,12 @@ header {
 }
 .about-pic-1 {
     width: 20%;
+    animation-name: deqyun;
+    animation-duration: 2s;
+}
+@keyframes deqyun {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 .fill-data-link {
     display: inline-block;
@@ -185,9 +191,15 @@ header {
     background-position: center;
     text-align: left;
     list-style: none;
-    padding: 40px 60px;
+    padding: 60px 80px;
     position: relative;
+    animation-name: example;
+    animation-duration: 1s;
 }
+@keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
 .copyright {
     background-color: #222;
     font-size: 14px;
@@ -268,15 +280,15 @@ header {
   }
   .modal-content {
     display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.9);
     justify-content: center;
     align-items: center;
-      width: 100vw;
-      height: 100vh;
-      background-color: rgba(0,0,0,0.9);
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
   }
 
 /* rwd */
