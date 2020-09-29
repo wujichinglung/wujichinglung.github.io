@@ -1,4 +1,4 @@
-/* 20200526 Ason */
+/* 20200929 Ason */
 /* common */
 html {
     scroll-behavior: smooth;
@@ -135,6 +135,7 @@ header {
 }
 .about-pic-1 {
     width: 20%;
+    margin-bottom: 5px;
     animation-name: deqyun;
     animation-duration: 2s;
 }
@@ -325,7 +326,9 @@ header {
       right: 10px;
     }
     .about-pic-1 {
-      width: 60%;
+      width: 50%;
+      margin-top: 10px;
+      margin-bottom: 5px;
     }
     .mainmenu-container {
         background-size: cover;
