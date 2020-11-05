@@ -359,4 +359,10 @@ header {
     .url-website {
         font-size: 14px;
     }
+    .fill-data-link {
+        font-size: 1rem;
+    }
+    .query-form, .query-form b {
+        font-size: 0.9rem;
+    }
 }
