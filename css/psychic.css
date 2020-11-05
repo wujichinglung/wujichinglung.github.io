@@ -314,6 +314,7 @@ header {
         width: 40%;
     }
 }
+
 @media only screen and (max-width: 767px) {
     .first-title {
         margin-top: 20px;
@@ -351,5 +352,11 @@ header {
     .btn-close:link {
         top: -55px;
         right: -10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .url-website {
+        font-size: 14px;
     }
 }
