@@ -1,4 +1,4 @@
-/* 20200929 Ason */
+/* 20201204 Ason */
 /* common */
 html {
     scroll-behavior: smooth;
@@ -7,7 +7,9 @@ body {
     background: url(../images/bg_2.jpg);
     background-size: cover;
     font-family: 微軟正黑體;
+    font-family: 'Noto Sans TC', sans-serif;
     font-size: 1.1rem;
+    font-weight: 300;
 }
 h3, h4 {
     padding: 10px;
@@ -16,16 +18,18 @@ h3, h4 {
 h3 {
     width: 20%;
     background-color: rgba(0,0,0,0.05);
-    /*box-shadow: 0 0 1px #1d2124;*/
+    font-weight: 700;
+    box-shadow: 0 1px 1px #999999;
     margin-top: 40px;
 }
 h4 {
     width: 12%;
     background-color: rgba(0,0,0,0.08);
     font-size: 1.2rem;
+    font-weight: 500;
 }
 h5 {
-    font-weight: bold;
+    font-weight: 700;
     margin-top: 20px;
 }
 a:link, a:visited {
@@ -127,6 +131,7 @@ header {
     padding-left: 0;
 }
 .mainmenu li {
+    font-weight: 400;
   text-align: center;
   margin-bottom: 5px;
 }
@@ -145,6 +150,7 @@ header {
 }
 .fill-data-link {
     display: inline-block;
+    font-weight: 400;
     list-style: none;
     padding-left: 0;
 }
@@ -267,15 +273,16 @@ header {
   }
  .fill-data strong {
       font-size: 2rem;
+      font-weight: 700;
       color: #900;
   }
   .fill-data b {
     font-size: 1.1rem;
     color: #222;
 }
-  .lucky-money {
+  .phychic-item {
       font-size: 1.5rem;
-      font-weight: bold;
+      font-weight: 500;
   }
   i.square {
     display: inline-block;
