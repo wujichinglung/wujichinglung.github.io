@@ -302,6 +302,9 @@ header {
     left: 0;
     z-index: 10;
   }
+  .offcial-website {
+      margin: 60px auto 40px; 
+  }
 
 /* rwd */
 @media only screen and (max-width: 991px) {
@@ -341,7 +344,7 @@ header {
       right: 10px;
     }
     .about-pic-1 {
-      width: 50%;
+      width: 41.66%;
       margin-top: 10px;
       margin-bottom: 5px;
     }
@@ -377,6 +380,9 @@ header {
     .atm {
         padding-right: 36px !important;
         padding-left: 36px !important;
+    }
+    .offcial-website {
+        margin: 20px auto 10px; 
     }
 }
 
