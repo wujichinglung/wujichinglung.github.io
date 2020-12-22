@@ -4,6 +4,7 @@ html {
     scroll-behavior: smooth;
   }
 body {
+    background-color: #d3d3d3;
     background: url(../images/bg_2.jpg);
     background-size: cover;
     font-family: 微軟正黑體;
